@@ -11,5 +11,5 @@
 3. Link: [설정 페이지](/PRD/setting-page.html)
 4. Link: [푸쉬 설정 페이지](/PRD/push-setting-page.html)
 5. Link: [알림 null 페이지](/PRD/alarm-null.html)
-6. Link: [알림 리스트 페이지](/PRD/alarm-list.html)
+6. Link: [알림 리스트 페이지](/PRD/alarm-list-new.html)
 7. Link: [모달,팝업](/PRD/product-detail-modal.html)
