@@ -5509,6 +5509,27 @@ nav.nav-wrap button.profile.on .img-wrap img {
   width: 100%;
 }
 
+.main-new-page-wrap header .header-buttons {
+  position: absolute;
+  right: 14px;
+  width: 64px;
+}
+
+.main-new-page-wrap header .header-buttons .header-button-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-new-page-wrap header .header-buttons .header-button-wrap button {
+  width: 24px;
+  height: 24px;
+}
+
+.main-new-page-wrap header .header-buttons .header-button-wrap button img {
+  width: 100%;
+}
+
 .main-new-page-wrap .main-new {
   padding-top: 50px;
 }
@@ -6827,7 +6848,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   font-size: 15px;
   font-weight: 700;
   letter-spacing: -0.3px;
-  line-height: 41px;
+  line-height: 50px;
   flex-basis: content;
   position: relative;
   display: inline-block;
@@ -6855,7 +6876,7 @@ nav.nav-wrap button.profile.on .img-wrap img {
   width: 6px;
   height: 6px;
   content: "";
-  background: no-repeat url(../images/icon-highlight-star.png);
+  background: no-repeat url(../images/icon-highlight-star-primary.png);
   background-size: contain;
 }
 
@@ -6873,6 +6894,10 @@ nav.nav-wrap button.profile.on .img-wrap img {
 
 .main-new-page-wrap .main-new .tab-depth a.highlight {
   margin-right: 7px;
+}
+
+.main-new-page-wrap .main-new .tab-depth a.highlight.primary {
+  color: #FB53FF;
 }
 
 .common-wrap .common-content {
@@ -8683,7 +8708,7 @@ header.detail-header {
   color: #373839;
   letter-spacing: -0.24px;
   line-height: 142%;
-  margin-left: 6px;
+  margin-left: 12px;
 }
 
 .mypage-content .alarm-list .alarm-desc-box {
