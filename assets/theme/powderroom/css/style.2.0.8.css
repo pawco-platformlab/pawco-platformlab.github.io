@@ -5801,18 +5801,19 @@ p {
 }
 
 .review-product-search .search-main img {
-  width: 160px;
+  width: 264px;
 }
 
 .review-product-search .search-main p {
-  padding-top: 30px;
+  padding-top: 38px;
   font-size: 14px;
   line-height: 20px;
-  color: #929498;
+  color: #67696B;
 }
 
 .review-product-search .search-main p b {
   color: #ff43ca;
+  font-weight: bold;
 }
 
 .review-product-search .search-bottom {
