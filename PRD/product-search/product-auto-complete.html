@@ -1737,13 +1737,13 @@
                                     hx-target="#search-results" hx-trigger="submit, input changed delay:500ms"
                                     hx-on::after-request="changebutton()" class="">
                                     <div class="search-input-wrap"> <input type="text" name="keyword"
-                                            id="search-inpu-keyword" placeholder="ブランド、商品名を探してみてください"> <span
+                                            id="search-inpu-keyword" placeholder="ブランド、商品名を探してください"> <span
                                             id="search-button"> <button type="submit" id="search-submit-button"
                                                 style="display: none;"> <img
                                                     src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-product-search-btn.png"
                                                     alt="검색"> </button> <button type="button" onclick="closebtn()"
                                                 id="search-cancel-button" style=""> <img
-                                                    src="https://cf.powderroom.mobi/assets/theme/powderroom/images/searchx.svg"
+                                                    src="/assets/theme/powderroom/images/icon-search-close-grey.png"
                                                     alt="검색"> </button> </span> </div>
                                 </form>
                             </div>
@@ -1764,7 +1764,7 @@
                                         background-color: rgba(0, 0, 0, 0.03);
                                     }
                                 </style>
-                                <!-- <div class="search-main"> -->
+                                <div class="search-product-main">
                                     <div class="search-content">
                                         <ul class="auto-complete-list">
                                             <li class="auto-complete-item">
@@ -1931,89 +1931,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <!-- <div class="inner"> <svg width="295" height="100" viewBox="0 0 295 100" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M162.327 20.8301C174.476 32.9792 174.476 52.6767 162.327 64.8258C150.178 76.9749 130.481 76.9749 118.332 64.8258C106.182 52.6767 106.182 32.9792 118.332 20.8301C130.481 8.68099 150.178 8.68099 162.327 20.8301Z"
-                                                fill="url(#paint0_linear_1104_24853)" stroke="white"></path>
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M167.076 69.5764C181.849 54.8036 181.849 30.8524 167.076 16.0796C152.304 1.30681 128.352 1.30681 113.58 16.0796C98.8068 30.8524 98.8068 54.8036 113.58 69.5764C128.352 84.3492 152.304 84.3492 167.076 69.5764ZM162.679 65.1794C175.024 52.835 175.024 32.821 162.679 20.4766C150.335 8.13221 130.321 8.13221 117.977 20.4766C105.632 32.821 105.632 52.835 117.977 65.1794C130.321 77.5238 150.335 77.5238 162.679 65.1794Z"
-                                                fill="#D9D9D9"></path>
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M167.076 69.5764C181.849 54.8036 181.849 30.8524 167.076 16.0796C152.304 1.30681 128.352 1.30681 113.58 16.0796C98.8068 30.8524 98.8068 54.8036 113.58 69.5764C128.352 84.3492 152.304 84.3492 167.076 69.5764ZM162.679 65.1794C175.024 52.835 175.024 32.821 162.679 20.4766C150.335 8.13221 130.321 8.13221 117.977 20.4766C105.632 32.821 105.632 52.835 117.977 65.1794C130.321 77.5238 150.335 77.5238 162.679 65.1794Z"
-                                                fill="white"></path>
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M167.076 69.5764C181.849 54.8036 181.849 30.8524 167.076 16.0796C152.304 1.30681 128.352 1.30681 113.58 16.0796C98.8068 30.8524 98.8068 54.8036 113.58 69.5764C128.352 84.3492 152.304 84.3492 167.076 69.5764ZM162.679 65.1794C175.024 52.835 175.024 32.821 162.679 20.4766C150.335 8.13221 130.321 8.13221 117.977 20.4766C105.632 32.821 105.632 52.835 117.977 65.1794C130.321 77.5238 150.335 77.5238 162.679 65.1794Z"
-                                                fill="url(#paint1_linear_1104_24853)" fill-opacity="0.8"></path>
-                                            <path
-                                                d="M172.882 65.8555C171.614 67.6791 170.168 69.416 168.542 71.0417C166.916 72.6675 165.179 74.1143 163.355 75.3823L181 93.0267C183.631 95.6575 187.896 95.6575 190.527 93.0267C193.157 90.396 193.157 86.1307 190.527 83.4999L172.882 65.8555Z"
-                                                fill="#C7CAD0"></path>
-                                            <defs>
-                                                <linearGradient id="paint0_linear_1104_24853" x1="117.978" y1="20.4765"
-                                                    x2="174.772" y2="47.9578" gradientUnits="userSpaceOnUse">
-                                                    <stop offset="0.0260417" stop-color="#F2F3F6" stop-opacity="0">
-                                                    </stop>
-                                                    <stop offset="0.544004" stop-color="#F2F3F6" stop-opacity="0.6">
-                                                    </stop>
-                                                    <stop offset="0.714593" stop-color="#F2F3F6" stop-opacity="0">
-                                                    </stop>
-                                                    <stop offset="1" stop-color="#F2F3F6" stop-opacity="0.2"></stop>
-                                                </linearGradient>
-                                                <linearGradient id="paint1_linear_1104_24853" x1="140.132" y1="80.656"
-                                                    x2="152.557" y2="-15.2464" gradientUnits="userSpaceOnUse">
-                                                    <stop stop-color="#DEE0E4"></stop>
-                                                    <stop offset="1" stop-color="#ECEEF2"></stop>
-                                                </linearGradient>
-                                            </defs>
-                                        </svg>
-                                        <p style="color: #222222; font-weight: 600">検索の結果が出ません...</p>
-                                        <p>他のキーワードで再検索、未登録商品の場合は<br/>
-                                            「未登録商品レビュー」を選択してください ♪</p>
-                                    </div> -->
-                                <!-- </div> -->
-                                <style>
-                                    .review-product-search .search-input-container {
-                                        top: 50px;
-                                    }
-                                    .review-product-search .search-input-container form input {
-                                        caret-color: #FF43CA;
-                                    }
-                                    .search-content {
-                                        margin-top: 50px;
-                                    }
-                                    .auto-complete-list {
-                                        padding: 0 16px 16px;
-                                    }
-                                    .auto-complete-list .auto-complete-item {
-                                        padding: 11px 0;            
-                                        cursor: pointer;
-                                    }
-                                    .auto-complete-list .auto-complete-item a {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: flex-start;
-                                        gap: 10px;
-                                    }
-                                    .auto-complete-list .auto-complete-item a .auto-complete-item-img {
-                                        width: 24px;
-                                        height: 24px;
-                                    }
-                                    .auto-complete-list .auto-complete-item a .auto-complete-item-text {
-                                        font-size: 15px;
-                                        font-weight: normal;
-                                        line-height: 145%;
-                                        letter-spacing: -0.30px;
-                                        color: #373839;
-                                        white-space: nowrap;
-                                        overflow: hidden;
-                                        text-overflow: ellipsis;
-                                        width: 100%;
-                                        max-width: calc(100% - 30px);
-                                    }
-                                    .auto-complete-list .auto-complete-item a .auto-complete-item-text .primary {
-                                        color: #FF43CA;
-                                    }
-                                </style>
+                                </div>
                             </div>
                         </div>
                     </div>
