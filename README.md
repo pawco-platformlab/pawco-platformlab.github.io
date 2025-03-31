@@ -28,7 +28,7 @@
 11. Link: [상품 탭 null](/PRD/search/product-search-tab-null.html)
 12. Link: [리뷰 탭](/PRD/search/review-search-tab.html)
 13. Link: [리뷰 탭 null](/PRD/search/review-search-tab-null.html)
-14. Link: [매거진 탭](/PRD/search/magazine-search-tab.html)
+14. Link: [매거진 탭](/PRD/search/magazine-search-tab01.html)
 15. Link: [매거진 탭 null](/PRD/search/magazine-search-tab-null.html)
 16. Link: [매거진 탭 null](/PRD/search/magazine-search-tab-null.html)
 17. Link: [이미지 변경 - 신청 완료](/PRD/new/apply-complete.html)
