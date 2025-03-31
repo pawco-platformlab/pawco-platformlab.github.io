@@ -9349,6 +9349,9 @@
   margin-top: unset;
   border-bottom: 1px solid #F2F3F6;
 }
+.search-list.search-list-contents .magazine-list .magazine-item:last-child {
+  border-bottom: unset;
+}
 .search-list.search-list-contents .magazine-list .magazine-item .magazine-thumb {
   width: 100px;
   height: 100px;
@@ -9456,7 +9459,7 @@
 .search-list.search-list-contents .recommended-section .recommended-list .recommended-item img {
   width: 100%;
   aspect-ratio: 110 / 142;
-  border-radius: 8px;
+  border-radius: 12px;
   object-fit: cover;
   margin-bottom: 8px;
 }
@@ -9589,4 +9592,7 @@
 }
 .exp-content .join-completed-box .complete-text-sub span {
   color: #FF43CA;
+}
+.exp-content .join-completed-box .complete-text-sub + button {
+  margin: 0 16px 24px;
 }
