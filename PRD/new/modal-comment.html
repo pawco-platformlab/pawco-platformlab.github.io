@@ -2,7 +2,7 @@
 
 <head>
     <title>POWDERROOM</title>
-    <base href="/brand/98/">
+    <base href="/campaign/261/join/">
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
@@ -36,12 +36,12 @@
     <link rel="manifest" href="https://cf.powderroom.mobi/assets/theme/powderroom/icon/manifest.json">
     <script src="https://cf.powderroom.mobi/assets/vendor/htmx-2.0/htmx.min.js"></script>
     <script
-        nonce="32wrgZxkL/Y7uw6GfsXH6Q=="> htmx.config.scrollIntoViewOnBoost = true; htmx.config.inlineStyleNonce = "32wrgZxkL/Y7uw6GfsXH6Q=="; htmx.config.refreshOnHistoryMiss = true; </script>
+        nonce="zgOLmDtdt5CEca6fVwVlcQ=="> htmx.config.scrollIntoViewOnBoost = true; htmx.config.inlineStyleNonce = "zgOLmDtdt5CEca6fVwVlcQ=="; htmx.config.refreshOnHistoryMiss = true; </script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cf.powderroom.mobi/assets/dist/theme/powderroom/validator/validator-1.0.1.min.js"></script>
     <script src="https://cf.powderroom.mobi/assets/dist/theme/powderroom/custom/custom-1.0.49.min.js"></script>
     <script
-        nonce="32wrgZxkL/Y7uw6GfsXH6Q=="> var is_member = 1; try { PushPermissionManager.checkAndSendToken(is_member); } catch (e) { console.log(e); } var formValidator = null; var is_auto_save_modal = false; var cleanupHistory = null;</script>
+        nonce="zgOLmDtdt5CEca6fVwVlcQ=="> var is_member = 1; try { PushPermissionManager.checkAndSendToken(is_member); } catch (e) { console.log(e); } var formValidator = null; var is_auto_save_modal = false; var cleanupHistory = null;</script>
     <script> </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
@@ -1421,9 +1421,9 @@
     </style>
     <link href="https://cdn.jsdelivr.net/npm/jquery.rateit@1.1.6/scripts/rateit.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css">
-    <link rel="stylesheet" href="https://cf.powderroom.mobi/assets/theme/powderroom/css/style.2.0.8.2.css">
-    <link rel="stylesheet" href="https://cf.powderroom.mobi/assets/theme/powderroom/css/custom.2.1.5.6.css">
-    <style nonce="32wrgZxkL/Y7uw6GfsXH6Q==">
+    <link rel="stylesheet" href="/assets/theme/powderroom/css/style.2.0.8.css">
+    <link rel="stylesheet" href="/assets/theme/powderroom/css/custom.2.1.5.6.css">
+    <style nonce="zgOLmDtdt5CEca6fVwVlcQ==">
         @viewport {
             zoom: 1;
             width: device-width;
@@ -1531,7 +1531,7 @@
             background-color: #fff;
         }
     </style>
-    <style nonce="32wrgZxkL/Y7uw6GfsXH6Q==">
+    <style nonce="zgOLmDtdt5CEca6fVwVlcQ==">
         .htmx-indicator {
             opacity: 0
         }
@@ -1548,387 +1548,339 @@
     </style>
 </head>
 
-<body>
+<body class="modal-open">
     <div class="main-new-page-wrap common-wrap">
         <header> <button type="button" class="logo" onclick="window.location.href='/'"> <img
                     src="https://cf.powderroom.mobi/assets/theme/powderroom/images/img-logo-top.png" alt="POWDER ROOM">
             </button> <button type="button"> </button> </header> <input type="hidden" id="referer" value=""> <input
             type="hidden" id="product-index" value=""> <input type="hidden" id="twitter_user_id" value="">
         <div class="main-new">
-            <div id="limepie-contents">
-                <div class="product-page-wrap common-wrap brand">
-                    <header> <button type="button" class="btn-header-left" data-move-page="back"> <img
-                                src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-header-back.png"
+            <div id="limepie-contents" class="">
+                <script> document.addEventListener("click", function (event) { if (!event.target.closest(".more-dot3-container")) { var dropdowns = document.querySelectorAll(".more-dot3-dropdown"); dropdowns.forEach(function (dropdown) { dropdown.style.display = "none"; }); } }); $(function () { const starWraps = document.querySelectorAll(".star-wrap"); starWraps.forEach((wrap) => { initializeStarRating(wrap); }); const uploader = commentCreateImageUploader({ inputId: "fileInput", previewContainerId: "imagePreviewContainer", maxFiles: 5, maxFileSize: 10 * 1024 * 1024, }); errorImageLoader(document.querySelectorAll(".detail-box .content img")); });</script>
+                <div class="review-page-wrap common-wrap">
+                    <header> <button type="button" class="btn-header-left back" onclick="movePage('/ranking', true)">
+                            <img src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-header-back.png"
                                 alt=""> </button>
-                        <h2 class="overflow-ellipsis">アミューズ</h2> <button type="button"
-                            class="btn-header-right cursor-pointer" hx-get="/" hx-target="#limepie-contents"
-                            hx-push-url="true" hx-swap="innerHTML show:window:top"> <img
-                                src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-top-home2.png"
+                        <h2>レビュー</h2> <textarea class="d-none" id="share-review-text">AMUSEの" ハローキティ限定エディション "
+リップ&amp;チークスマートフォン 01 APPLE SODA
+※ 2colorsあるよ🫶🏻
+
+コンパクトでパケ可愛くて、発色もいい💓
+お洒落なもの持ってるだけでウキウキするよね🥺
+
+他のキティちゃんパケのコスメも揃えたくなっちゃう🎀
+
+@amuse @amuse.jp 
+@powderroom_jp
+
+#PR #パウダールーム体験団 #体験団 #韓国コスメ #AMUSE #Kitty #ハローキティ #キティ #リップ #rip #チーク #コスメ #cosme #beauty</textarea> <button
+                            type="button" class="btn-header-right" data-code="https://powderroom.mobi/review/6978"
+                            onclick="shareReview(this, event, '気分up！キティちゃんリップ＆チーク CELL PHONE♡', document.getElementById('share-review-text').value)">
+                            <img src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-top-share.png"
                                 alt=""> </button>
                     </header>
-                    <div class="brand-main" style="padding-top: 50px !important">
-                        <div class="top-brand-info">
-                            <div class="bg-wrap"> <img class="bg-area"
-                                    src="https://cf.powderroom.mobi/uploads/powderroom/73/45/f7/7345f7c93a7fe3ec38e540cf2708fe26d50fca87.png">
-                            </div>
-                            <div class="brand-content">
-                                <div class="img-wrap"> <img class="brand-logo"
-                                        src="https://cf.powderroom.mobi/uploads/powderroom/71/9f/74/719f74fb31f22d6663c022d9f647723023d27279.png">
+                    <div class="review-detail-content common-content">
+                        <div class="profile-info-box">
+                            <div class="user-wrap">
+                                <div class="img-wrap"> <img
+                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/human_new_01.png"
+                                        height="100"
+                                        onerror="this.onerror=null; this.src='https://cf.powderroom.mobi/assets/theme/powderroom/images/human_new_01.png';"
+                                        alt=""> </div>
+                                <div class="user">
+                                    <p class="name"> <strong>mayudnc3</strong> </p>
+                                    <p class="time"> <span class="time-txt">2024-10-18</span> <span
+                                            class="tag">30代</span> <span class="tag">混合肌 </span> </p>
                                 </div>
-                                <div class="info-wrap">
-                                    <div class="title">
-                                        <h5>アミューズ</h5>
-                                        <div class="sns"> <button class="insta"
-                                                onclick="window.open('https://www.instagram.com/amuse/')"> <img
-                                                    src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-main-sns-insta.png"
-                                                    alt="인스타그램"> </button> <button class="homepage"
-                                                onclick="window.open('https://amusemakeup.com/')"> <img
-                                                    src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-main-sns-link.png"
-                                                    alt="홈페이지 링크"> </button> </div>
+                            </div>
+                        </div>
+                        <style>
+                            div.content img {
+                                width: 100% !important;
+                            }
+                        </style>
+                        <div class="swiper-container swiper-initialized swiper-horizontal swiper-pointer-events">
+                            <div class="swiper-wrapper" id="swiper-wrapper-d042f4bbcfdf69103" aria-live="polite"
+                                style="transition-duration: 0ms; transform: translate3d(-530px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                                    data-swiper-slide-index="8" role="group" aria-label="9 / 9"
+                                    style="margin-right: 30px;"> <img class="dynamic-image review-img"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/5c/d0/29/5cd0291101183ddf50fa5725c591380a235a16b8.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/5c/d0/29/5cd0291101183ddf50fa5725c591380a235a16b8.jpg">
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" role="group"
+                                    aria-label="1 / 9" style="margin-right: 30px;"> <img
+                                        class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/e3/13/59/e31359e6e321e015f663bcf5fbce4f131220636c.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/e3/13/59/e31359e6e321e015f663bcf5fbce4f131220636c.jpg">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group"
+                                    aria-label="2 / 9" style="margin-right: 30px;"> <img
+                                        class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/d9/95/fb/d995fb6b4007803f92c4425de3237c14c811ad7b.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/d9/95/fb/d995fb6b4007803f92c4425de3237c14c811ad7b.jpg">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 9"
+                                    style="margin-right: 30px;"> <img class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/1d/4d/6b/1d4d6b090c1c6111fbe6e06605c6803744f652f8.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/1d/4d/6b/1d4d6b090c1c6111fbe6e06605c6803744f652f8.jpg">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="3" role="group" aria-label="4 / 9"
+                                    style="margin-right: 30px;"> <img class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/61/82/7a/61827a2acb4765f665cf7d70b28b42c69080e0a0.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/61/82/7a/61827a2acb4765f665cf7d70b28b42c69080e0a0.jpg">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="5 / 9"
+                                    style="margin-right: 30px;"> <img class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/4d/88/49/4d8849aced871f8ba2c5a0dbb6e272570da3fc4f.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/4d/88/49/4d8849aced871f8ba2c5a0dbb6e272570da3fc4f.jpg">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="5" role="group" aria-label="6 / 9"
+                                    style="margin-right: 30px;"> <img class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/4c/07/5a/4c075aeb06e615dacd694f7660ddf198d1040ab9.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/4c/07/5a/4c075aeb06e615dacd694f7660ddf198d1040ab9.jpg">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="6" role="group" aria-label="7 / 9"
+                                    style="margin-right: 30px;"> <img class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/e7/3a/8e/e73a8e7163de0bb3d6da744121f3b2c6f4656304.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/e7/3a/8e/e73a8e7163de0bb3d6da744121f3b2c6f4656304.jpg">
+                                </div>
+                                <div class="swiper-slide" data-swiper-slide-index="7" role="group" aria-label="8 / 9"
+                                    style="margin-right: 30px;"> <img class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/44/53/7c/44537c210800cef7e786b9872df94ed382708fef.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/44/53/7c/44537c210800cef7e786b9872df94ed382708fef.jpg">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="8"
+                                    role="group" aria-label="9 / 9" style="margin-right: 30px;"> <img
+                                        class="dynamic-image review-img loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/5c/d0/29/5cd0291101183ddf50fa5725c591380a235a16b8.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/5c/d0/29/5cd0291101183ddf50fa5725c591380a235a16b8.jpg">
+                                </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                    data-swiper-slide-index="0" role="group" aria-label="1 / 9"
+                                    style="margin-right: 30px;"> <img class="dynamic-image review-img"
+                                        src="https://cf.powderroom.mobi/thumbs/600x600/crop/ffffff/uploads/powderroom/e3/13/59/e31359e6e321e015f663bcf5fbce4f131220636c.jpg"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/e3/13/59/e31359e6e321e015f663bcf5fbce4f131220636c.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination-wrap"> <span
+                                    class="swiper-pagination-inner swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span
+                                        class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                                        role="button" aria-label="Go to slide 1" aria-current="true"></span><span
+                                        class="swiper-pagination-bullet" tabindex="0" role="button"
+                                        aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet"
+                                        tabindex="0" role="button" aria-label="Go to slide 3"></span><span
+                                        class="swiper-pagination-bullet" tabindex="0" role="button"
+                                        aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet"
+                                        tabindex="0" role="button" aria-label="Go to slide 5"></span><span
+                                        class="swiper-pagination-bullet" tabindex="0" role="button"
+                                        aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet"
+                                        tabindex="0" role="button" aria-label="Go to slide 7"></span><span
+                                        class="swiper-pagination-bullet" tabindex="0" role="button"
+                                        aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet"
+                                        tabindex="0" role="button" aria-label="Go to slide 9"></span></span> </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                        <script> $(function () { var swiper = new Swiper(".swiper-container", { slidesPerView: "auto", centeredSlides: true, spaceBetween: 30, loop: true, loopedSlides: 1, pagination: { el: ".swiper-pagination-inner", clickable: true, type: "bullets", bulletClass: "swiper-pagination-bullet", bulletActiveClass: "swiper-pagination-bullet-active", }, }); }); </script>
+                        <div class="detail-box">
+                            <div class="grade"> <span class="label raffle">体験団</span>
+                                <div class="star-box star2-rating star2-mini">
+                                    <div class="star2">
+                                        <div class="star2-rating-foreground" style="width: 100%"></div>
+                                        <div class="star2-rating-background"></div>
                                     </div>
-                                    <div class="desc">
-                                        <p>心地よいビーガン&amp;ウェルネスビューティーの始まり</p>
+                                    <div class="star2">
+                                        <div class="star2-rating-foreground" style="width: 100%"></div>
+                                        <div class="star2-rating-background"></div>
+                                    </div>
+                                    <div class="star2">
+                                        <div class="star2-rating-foreground" style="width: 100%"></div>
+                                        <div class="star2-rating-background"></div>
+                                    </div>
+                                    <div class="star2">
+                                        <div class="star2-rating-foreground" style="width: 100%"></div>
+                                        <div class="star2-rating-background"></div>
+                                    </div>
+                                    <div class="star2">
+                                        <div class="star2-rating-foreground" style="width: 100%"></div>
+                                        <div class="star2-rating-background"></div>
+                                    </div>
+                                </div>
+                            </div> <strong class="title">気分up！キティちゃんリップ＆チーク CELL PHONE♡</strong>
+                            <div class="content"> AMUSEの" ハローキティ限定エディション "<br>
+                                リップ&amp;チークスマートフォン 01 APPLE SODA<br>
+                                ※ 2colorsあるよ🫶🏻<br>
+                                <br>
+                                コンパクトでパケ可愛くて、発色もいい💓<br>
+                                お洒落なもの持ってるだけでウキウキするよね🥺<br>
+                                <br>
+                                他のキティちゃんパケのコスメも揃えたくなっちゃう🎀<br>
+                                <br>
+                                @amuse @amuse.jp <br>
+                                @powderroom_jp<br>
+                                <br>
+                                <span class="content-highlight">#PR</span> <span
+                                    class="content-highlight">#パウダールーム体験団</span> <span
+                                    class="content-highlight">#体験団</span> <span class="content-highlight">#韓国コスメ</span>
+                                <span class="content-highlight">#AMUSE</span> <span
+                                    class="content-highlight">#Kitty</span> <span
+                                    class="content-highlight">#ハローキティ</span> <span class="content-highlight">#キティ</span>
+                                <span class="content-highlight">#リップ</span> <span class="content-highlight">#rip</span>
+                                <span class="content-highlight">#チーク</span> <span class="content-highlight">#コスメ</span>
+                                <span class="content-highlight">#cosme</span> <span
+                                    class="content-highlight">#beauty</span> <br> <br> <span>#PR</span>
+                                <span>#パウダールーム体験団</span> <span>#体験団</span> <span>#韓国コスメ</span> <span>#AMUSE</span>
+                                <span>#Kitty</span> <span>#ハローキティ</span> <span>#キティ</span> <span>#リップ</span>
+                                <span>#rip</span> <span>#チーク</span> <span>#コスメ</span> <span>#cosme</span>
+                                <span>#beauty</span>
+                            </div>
+                            <div class="product cursor-pointer" href="/product/3378" hx-get="/product/3378"
+                                hx-target="#limepie-contents" hx-push-url="true" hx-swap="innerHTML show:window:top">
+                                <div class="img-wrap"> <img
+                                        class="dynamic-image card-img-top rounded-lg loaded on-loaded"
+                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/19/6c/77/196c775b39d6b143c52579a41769ff4e7a3cc399.png"
+                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/19/6c/77/196c775b39d6b143c52579a41769ff4e7a3cc399.png">
+                                </div>
+                                <div class="product-detail">
+                                    <p class="brand">アミューズ</p>
+                                    <p class="name"> <strong>[ハローキティ限定エディション] リップアンドチークスマートフォン</strong> <span>01 apple
+                                            soda</span> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reaction-box"> <button class="btn " type="button"
+                                onclick="toggleLike(this,'/review/6978/like1')"> <img
+                                    src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-good-new.png"
+                                    alt="">共感した <span>0</span> </button> <button class="btn " type="button"
+                                onclick="toggleLike(this, '/review/6978/like2')"> <img
+                                    src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-pretty.png"
+                                    alt="">可愛いです <span>0</span> </button> <button class="btn " type="button"
+                                onclick="toggleLike(this, '/review/6978/like3')"> <img
+                                    src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-want-new.png"
+                                    alt="">欲しいです <span>0</span> </button> <button class="btn " type="button"
+                                onclick="toggleLike(this, '/review/6978/like4')"> <img
+                                    src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-picture.png"
+                                    alt="">クールな写真 <span>0</span> </button> </div>
+                        <div class="comment-box">
+                            <div class="comment-icon">
+                                <div class="left"> <button class="" type="button"
+                                        onclick="openCustomModal('.reaction-popup')"> <img
+                                            src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-smile.png"
+                                            alt=""> <span class="like_count">0</span> </button> <button class=""
+                                        type="button" onclick="openCustomModal('#comment-popup')"> <img
+                                            src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-comment-white.png"
+                                            alt=""> <span class="comment_count">0</span> </button> </div> <button
+                                    class="" type="button" onclick="toggleScrap(this, '/review/6978/scrap')"> <img
+                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-bookmark-gray.png"
+                                        width="28" alt=""> </button>
+                            </div>
+                            <div class="comment-txt"> </div>
+                        </div>
+                    </div>
+                    <div class="modal-wrap popup-dim-wrap review-detail-popup reaction-popup d-flex d-none"
+                        id="reaction-popup" style="z-index: 10001; display: none;">
+                        <div class="popup-content-wrap">
+                            <div class="popup-header"> <span class="like_count">0</span>人が反応を残しました <button type="button"
+                                    onclick="closeCustomModal('#reaction-popup')"> <img
+                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-top-close-black.png"
+                                        alt=""> </button> </div>
+                            <div class="popup-content">
+                                <div class="review-filter" id="review-filter"> <input type="radio" class="btn-check"
+                                        name="options-base" id="good" checked=""> <label class="btn" for="good"
+                                        href="/review/6978?like=1" hx-get="/review/6978?like=1"
+                                        hx-target="#reaction-popup-content"
+                                        hx-headers="{&quot;hx-swap-type&quot;: &quot;change&quot;}" hx-swap="innerHTML">
+                                        <img src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-good-new.png"
+                                            alt="">共感した <span>0</span></label> <input type="radio" class="btn-check"
+                                        name="options-base" id="pretty"> <label class="btn" for="pretty"
+                                        href="/review/6978?like=2" hx-get="/review/6978?like=2"
+                                        hx-target="#reaction-popup-content"
+                                        hx-headers="{&quot;hx-swap-type&quot;: &quot;change&quot;}" hx-swap="innerHTML">
+                                        <img src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-pretty.png"
+                                            alt="">可愛いです <span>0</span></label> <input type="radio" class="btn-check"
+                                        name="options-base" id="want"> <label class="btn" for="want"
+                                        href="/review/6978?like=3" hx-get="/review/6978?like=3"
+                                        hx-target="#reaction-popup-content"
+                                        hx-headers="{&quot;hx-swap-type&quot;: &quot;change&quot;}" hx-swap="innerHTML">
+                                        <img src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-want-new.png"
+                                            alt="">欲しいです <span>0</span></label> <input type="radio" class="btn-check"
+                                        name="options-base" id="picture"> <label class="btn" for="picture"
+                                        href="/review/6978?like=4" hx-get="/review/6978?like=4"
+                                        hx-target="#reaction-popup-content"
+                                        hx-headers="{&quot;hx-swap-type&quot;: &quot;change&quot;}" hx-swap="innerHTML">
+                                        <img src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-picture.png"
+                                            alt="">クールな写真 <span>0</span></label> </div>
+                                <div class="review-filter-detail" id="reaction-popup-content">
+                                    <div class="empty-wrap"> <img
+                                            class="modal-comment-empty-icon"
+                                            src="https://cf.powderroom.mobi/assets/theme/powderroom/images/img-empty-comment@2x.png"
+                                            alt="">
+                                        <p>初気持ちを残してください</p>
+                                    </div>
+                                    <style>
+                                        .like-wrap .product-detail {
+                                            display: flex;
+                                            gap: 3px;
+                                            align-items: center;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script> enableDragScroll("review-filter");</script>
+                    <div class="modal-wrap popup-dim-wrap review-detail-popup comment-popup" id="comment-popup"
+                        style="z-index: 10001">
+                        <div class="popup-content-wrap">
+                            <div class="popup-header"> コメント <span class="comment_count">0</span> <button type="button"
+                                    onclick="closeCommentReplyPopup()"> <img
+                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-top-close-black.png"
+                                        alt=""> </button> </div>
+                            <div class="popup-content">
+                                <div class="comment-wrap">
+                                    <div class="empty-wrap"> <img
+                                            class="modal-comment-empty-icon"
+                                            src="/assets/theme/powderroom/images/img-empty-comment@2x.png"
+                                            alt="">
+                                        <p>コメントをしてみてください ♪</p>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <form class="send-comment-form" action="/review/6978"
+                                            enctype="multipart/form-data" onsubmit="return write_comment(this, event)"
+                                            method="post">
+                                            <div class="send-desc-wrap" style="display: none">
+                                                <p><strong class="nickname">@nickname</strong>のコメント返事中</p> <input
+                                                    type="hidden" name="comment_seq" value=""> <input type="hidden"
+                                                    name="parent_seq" class="parent_seq" value=""> <input type="hidden"
+                                                    name="parent_user_seq" class="parent_user_seq" value=""> <button
+                                                    type="button" onclick="closeCommentReply()"> <img
+                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-top-close-black.png"
+                                                        alt=""> </button>
+                                            </div>
+                                            <div id="imagePreviewContainer"></div>
+                                            <div class="send-comment-wrap2"> <input type="file" id="fileInput"
+                                                    name="attachments[]" accept="image/*" multiple=""
+                                                    style="display: none;"> <button type="button" class="camera"
+                                                    onclick="document.getElementById('fileInput').click();"> <img
+                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-img-add.png"
+                                                        alt="이미지 첨부"> </button>
+                                                <div id="fileList"></div>
+                                                <div class="write-input">
+                                                    <div class="name" id="comment-nickname"></div> <input type="text"
+                                                        name="comment" value=""> <button type="submit"> <span
+                                                            id="update-comment-btn" style="display: none;">修正する</span>
+                                                        <img id="send-comment-btn"
+                                                            src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-send.png"
+                                                            alt="전송"> </button>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="campaign-banner" id="campaign-brtqa9286j">
-                            <div class="swiper swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide cursor-pointer" hx-get="/campaign/259"
-                                        hx-target="#limepie-contents" hx-push-url="true"
-                                        hx-swap="innerHTML show:window:top">
-                                        <div class="swiper-item">
-                                            <div class="img-wrap"> <img class="campaign-img"
-                                                    src="https://cf.powderroom.mobi/uploads/powderroom/82/3d/c7/823dc76cde94108f77041014ef30e620b5533415.png">
-                                            </div>
-                                            <div class="content-wrap">
-                                                <h5 class="title"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-main-compaign-title.png">
-                                                    <strong>体験団イベント</strong> <span>D-3</span> </h5>
-                                                <p class="desc">アミューズパウダーベルベットティントモニター</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-depth1"> <button type="button" class="on" hx-get="/brand/98/product"
-                                hx-target="#depth1-container" hx-push-url="true" hx-swap="innerHTML focus-scroll:true"
-                                onclick="setActiveTab(this)"> 商品 </button> <button type="button"
-                                hx-get="/brand/98/review" hx-target="#depth1-container" hx-push-url="true"
-                                hx-swap="innerHTML focus-scroll:true" onclick="setActiveTab(this)"> レビュー </button>
-                            <button type="button" hx-get="/brand/98/magazine" hx-target="#depth1-container"
-                                hx-push-url="true" hx-swap="innerHTML focus-scroll:true" onclick="setActiveTab(this)">
-                                マガジン </button> </div>
-                        <!-- <div class="depth1-container" id="depth1-container">
-                            <div class="product-container">
-                                <div class="tab-depth2">
-                                    <div class="swipe-scroll-area"> <button type="button" class="on"
-                                            hx-get="/brand/98/product/category" hx-target="#menu_content"
-                                            hx-push-url="true" hx-include="[name='order']"
-                                            hx-swap="innerHTML focus-scroll:true" onclick="setActiveMenu(this)"> 全体
-                                        </button> <button type="button" hx-get="/brand/98/product/category/95"
-                                            hx-target="#menu_content" hx-push-url="true" hx-include="[name='order']"
-                                            hx-swap="innerHTML focus-scroll:true" onclick="setActiveMenu(this)"> ベースメイク
-                                        </button> <button type="button" hx-get="/brand/98/product/category/102"
-                                            hx-target="#menu_content" hx-push-url="true" hx-include="[name='order']"
-                                            hx-swap="innerHTML focus-scroll:true" onclick="setActiveMenu(this)"> リップメイク
-                                        </button> <button type="button" hx-get="/brand/98/product/category/104"
-                                            hx-target="#menu_content" hx-push-url="true" hx-include="[name='order']"
-                                            hx-swap="innerHTML focus-scroll:true" onclick="setActiveMenu(this)"> コントゥア
-                                        </button> <button type="button" hx-get="/brand/98/product/category/107"
-                                            hx-target="#menu_content" hx-push-url="true" hx-include="[name='order']"
-                                            hx-swap="innerHTML focus-scroll:true" onclick="setActiveMenu(this)">
-                                            グリーンビューティー </button> <button type="button"
-                                            hx-get="/brand/98/product/category/258" hx-target="#menu_content"
-                                            hx-push-url="true" hx-include="[name='order']"
-                                            hx-swap="innerHTML focus-scroll:true" onclick="setActiveMenu(this)"> アイメイク
-                                        </button> </div>
-                                </div>
-                                <div id="menu_content">
-                                    <div class="tab-depth3-empty"></div>
-                                    <div id="category_content">
-                                        <div class="sort-info">
-                                            <div class="number">全体 21 件</div> <select class="sort" name="order"
-                                                hx-get="/brand/98" hx-trigger="change" hx-target="#menu_content"
-                                                hx-swap="innerHTML focus-scroll:true" hx-push-url="true">
-                                                <option value="best" selected=""> 人気順 </option>
-                                                <option value="new"> 最新順 </option>
-                                            </select>
-                                        </div>
-                                        <ul class="brand-product-list">
-                                            <li class="cursor-pointer" hx-get="/product/4329"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/6b/e3/2f/6be32fd1e1cf0ba31d7d7e672a81d3e6a705bbda.png"
-                                                        data-src="https://cf.powderroom.mobi/uploads/powderroom/6b/e3/2f/6be32fd1e1cf0ba31d7d7e672a81d3e6a705bbda.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">フォンデュバーム</p>
-                                                <p class="price">2,190</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>5</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2856"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/4d/44/49/4d44496773dafdec85f4f14e754ee0dd4b7daef4.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/4d/44/49/4d44496773dafdec85f4f14e754ee0dd4b7daef4.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name"> デューパワーヴィーガンクッション 1.5 ナチュラル</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>5</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/4315"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/41/b9/12/41b912cbb70a29cf5b4cd2cefa4ab7d240d1ecbf.png"
-                                                        data-src="https://cf.powderroom.mobi/uploads/powderroom/41/b9/12/41b912cbb70a29cf5b4cd2cefa4ab7d240d1ecbf.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">リングリップバーム </p>
-                                                <p class="price">1,898</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>5</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/4202"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/16/54/6f/16546f93b5593cbb4af3ab71039d5ce39f33480b.png"
-                                                        data-src="https://cf.powderroom.mobi/uploads/powderroom/16/54/6f/16546f93b5593cbb4af3ab71039d5ce39f33480b.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">ケア ティントバームキーリング</p>
-                                                <p class="price">1,350</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>5</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/3762"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/b9/7f/06/b97f06ee1941b7a414594d28bc614b5d51071c07.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/b9/7f/06/b97f06ee1941b7a414594d28bc614b5d51071c07.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">べべ ティント</p>
-                                                <p class="price">1,810</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>5</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2857"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/db/85/9d/db859d7df0d71c930941fb9bbb3c5e5712e69013.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/db/85/9d/db859d7df0d71c930941fb9bbb3c5e5712e69013.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">デューティント 08 パープルクォーツ</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>4.8</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/3378"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/19/6c/77/196c775b39d6b143c52579a41769ff4e7a3cc399.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/19/6c/77/196c775b39d6b143c52579a41769ff4e7a3cc399.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">[ハローキティ限定エディション] リップアンドチークスマートフォン</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>4.8</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2788"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/d5/ac/63/d5ac6366bb3cd7d846c69ad3c08cf14581b53561.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/d5/ac/63/d5ac6366bb3cd7d846c69ad3c08cf14581b53561.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">ジェルフィットティント</p>
-                                                <p class="price">2,236</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>4.7</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/3536"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/e1/13/7a/e1137ae760e39b721d39ad333520b3b1316c4baa.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/uploads/powderroom/e1/13/7a/e1137ae760e39b721d39ad333520b3b1316c4baa.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">[ハローキティ限定エディション ]ベベティント</p>
-                                                <p class="price">2,000</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>4.7</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/3522"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/f2/ad/2d/f2ad2d86b8b9f07f52ce30f7ebf0c46fa5d8433d.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/f2/ad/2d/f2ad2d86b8b9f07f52ce30f7ebf0c46fa5d8433d.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">デューバーム</p>
-                                                <p class="price">1,850</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>4.4</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/4059"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/56/9d/9d/569d9dbae80ff40a6b86e269c0e90b00214c5e78.png"
-                                                        data-src="https://cf.powderroom.mobi/uploads/powderroom/56/9d/9d/569d9dbae80ff40a6b86e269c0e90b00214c5e78.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">チークトクトク</p>
-                                                <p class="price">1,810</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>4</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/4096"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/ba/39/98/ba399898bd00f7ea54955339ca9125f16a564490.png"
-                                                        data-src="https://cf.powderroom.mobi/uploads/powderroom/ba/39/98/ba399898bd00f7ea54955339ca9125f16a564490.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">デューバーム</p>
-                                                <p class="price">1,810</p>
-                                                <p class="star"> <img
-                                                        src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-brand-product-star.png">
-                                                    <span>4</span> </p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/4341"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img
-                                                        class="dynamic-image loaded thumbnail-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/b0/b3/0e/b0b30e851030b2ebd004aaf4ba5fb760fa0b5cbc.png?1743142111610"
-                                                        data-src="https://cf.powderroom.mobi/uploads/powderroom/b0/b3/0e/b0b30e851030b2ebd004aaf4ba5fb760fa0b5cbc.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">アイカラーパレット</p>
-                                                <p class="price">3,130</p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2737"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/bd/0a/2b/bd0a2b3bb284a74e710b1f6bf5afc2706c4b95ad.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/bd/0a/2b/bd0a2b3bb284a74e710b1f6bf5afc2706c4b95ad.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">デュウェアファンデーション35ml</p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/4294"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/eb/9c/46/eb9c463787ce749466a164aa241c091693a1c04e.png"
-                                                        data-src="https://cf.powderroom.mobi/uploads/powderroom/eb/9c/46/eb9c463787ce749466a164aa241c091693a1c04e.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">パウダーベルベットティント</p>
-                                                <p class="price">1,900</p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/4070"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/uploads/powderroom/55/63/ef/5563effe883a91a71e7bfbd5600f51b65a6e4f0e.png"
-                                                        data-src="https://cf.powderroom.mobi/uploads/powderroom/55/63/ef/5563effe883a91a71e7bfbd5600f51b65a6e4f0e.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">スキンチューンヴィーガンカバークッション</p>
-                                                <p class="price">3,330</p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2913"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/e5/cd/f9/e5cdf93879dc1302202d7dd86d8f446e4596ceea.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/e5/cd/f9/e5cdf93879dc1302202d7dd86d8f446e4596ceea.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">セラミックス スキン·セバム·パウダー</p>
-                                                <p class="price">1,714</p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2912"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/6b/9e/07/6b9e07c31f042f8b149305a728a1c1752df1e477.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/6b/9e/07/6b9e07c31f042f8b149305a728a1c1752df1e477.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">セラミックスキン·パーフェクター·ファンデーション</p>
-                                                <p class="price">4,113</p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2894"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/de/a3/43/dea343bd2ab90d117269f5d11a6e447afbd6fb6d.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/de/a3/43/dea343bd2ab90d117269f5d11a6e447afbd6fb6d.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">もちもちゼリーチーク うさぎ 舌</p>
-                                                <p class="price">2,290</p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2818"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/93/d4/01/93d4011a112761c9bb3f1dac29b35ea2dec837d3.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/93/d4/01/93d4011a112761c9bb3f1dac29b35ea2dec837d3.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">セラミックスキンパーフェクタークッション</p>
-                                            </li>
-                                            <li class="cursor-pointer" hx-get="/product/2739"
-                                                hx-target="#limepie-contents" hx-push-url="true"
-                                                hx-swap="innerHTML show:window:top">
-                                                <div class="img-wrap"> <img class="dynamic-image loaded on-loaded"
-                                                        src="https://cf.powderroom.mobi/thumbs/300x300/scale/ffffff/upload/8f/28/d0/8f28d0209ffc5272a7278487275a34b56c34a548.png"
-                                                        data-src="https://powderroom.s3.ap-northeast-1.amazonaws.com/upload/8f/28/d0/8f28d0209ffc5272a7278487275a34b56c34a548.png">
-                                                </div>
-                                                <p class="brand-name">アミューズ</p>
-                                                <p class="product-name">デュゼリービーガンクッション15g</p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <script> function setActiveMenu(el) { document.querySelectorAll(".tab-depth2 button").forEach((btn) => { btn.classList.remove("on"); }); el.classList.add("on"); }</script>
-                        </div> -->
                     </div>
                 </div>
-                <script> function setActiveTab(el) { document.querySelectorAll(".tab-depth1 button").forEach((btn) => { btn.classList.remove("on"); }); el.classList.add("on"); }</script>
             </div>
         </div>
         <div class="modal-wrap safe-inset d-none z-index-10003" id="sns-modal">
@@ -2230,7 +2182,7 @@
         <nav class="nav-wrap nav-wrap-menu"> <a class="icon-new-tabbar-home" href="/" hx-boost="true"> <em
                     class="img"></em> <br><span>ホーム</span> </a> <a class="icon-new-tabbar-event" href="/campaign"
                 hx-boost="true"> <em class="img"></em> <br><span>イベント</span> </a> <button type="button"
-                class="write-btn" href="/review/create" hx-get="/review/create" hx-target="#limepie-contents"
+                class="write-btn active on" href="/review/create" hx-get="/review/create" hx-target="#limepie-contents"
                 hx-push-url="true" hx-swap="innerHTML show:window:top"> <span><img
                         src="https://cf.powderroom.mobi/assets/theme/powderroom/images/icon-pencil.png"
                         alt="マガジン"></span> </button> <a class="icon-new-tabbar-rank" href="/ranking" hx-boost="true">
