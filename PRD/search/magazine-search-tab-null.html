@@ -1793,9 +1793,23 @@
                                     </ul>
                                 </div>
                                 <style>
+                                    .search-main {
+                                        display: flex;
+                                        flex-direction: column;
+                                        overflow: hidden;
+                                    }
                                     .search-main.magazine-null-wrap {
-                                        min-height: 60vh;
-                                        height: 60vh;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height: auto;
+                                        min-height:calc(100vh - 320px);
+                                        padding: 0 16px;
+                                    }
+                                    .search-main.magazine-null-wrap .inner {
+                                        margin-top: 60px!important;
+                                        height: auto!important;
                                     }
                                     .recommended-section {
                                         margin-top: 24px;
