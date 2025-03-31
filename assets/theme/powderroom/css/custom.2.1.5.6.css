@@ -5577,6 +5577,7 @@
     width: unset;
     word-break: break-all;
     inline-size: max-content;
+    margin-bottom: 4px;
   }
 
   /* 수정됨 */
@@ -6923,7 +6924,7 @@
     font-size: 15px;
     font-weight: 700;
     letter-spacing: -0.3px;
-    line-height: 41px;
+    line-height: 50px;
     flex-basis: content;
     position: relative;
   }
