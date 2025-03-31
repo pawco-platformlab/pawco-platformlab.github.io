@@ -15,7 +15,7 @@
 7. Link: [모달,팝업](/PRD/product-detail-modal.html)
 
 ### 검색 작업, 페이지별 공통 이미지 변경, 홈화면 변경, 매거진 상품 연동 추가 2025-03-31
-1. Link: [홈 메인 상단 네비게이션](/PRD/main/main-header-tab.html)
+1. Link: [홈 메인 상단 네비게이션](/PRD/main/main-header-tab01.html)
 2. Link: [홈 하단 탭](/PRD/main/footer-tab.html)
 3. Link: [매거진 상품 연동](/PRD/magazine/magazine-detail01.html)
 4. Link: [상품 검색어 입력전](/PRD/product-search/product-search.html)
