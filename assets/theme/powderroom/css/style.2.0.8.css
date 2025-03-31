@@ -2510,7 +2510,7 @@ button.toggle.off {
 }
 
 .mypage-box .no-list p {
-  color: #929498;
+  color: #67696B;
   font-size: 15px;
   margin: 10px 0 15px;
   font-weight: 400;
@@ -4988,7 +4988,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 70px 0;
+  padding: 103px 0;
 }
 
 .review-detail-popup .popup-content .empty-wrap img {

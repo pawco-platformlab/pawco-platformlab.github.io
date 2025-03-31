@@ -2956,7 +2956,7 @@
   }
 
   .review-list-box .product-review-list li.no-list {
-    padding: 41px 0 36px !important;
+    padding: 78px 0 43px !important;
     text-align: center !important;
     background-color: #f6f9ff !important;
     border-radius: 0 !important;
@@ -2964,15 +2964,15 @@
   }
 
   .review-list-box .product-review-list li.no-list img {
-    width: 81px;
-    height: 90px;
+    width: 99px;
+    height: 75px;
   }
 
   .review-list-box .product-review-list li.no-list p {
-    color: #929498;
-    font-size: 15px;
-    margin: 10px 0 15px;
-    font-weight: 400;
+    color: #67696B;
+    font-size: 14px;
+    margin: 6 0 0 0;
+    font-weight: normal;
     line-height: 21px;
   }
 
@@ -4082,7 +4082,7 @@
   }
 
   .mypage-box .no-list button {
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .review-detail-popup
@@ -9469,4 +9469,101 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* 공통 이미지 변경 */
+.brand-main .product-empty-state {
+  padding: 70px 0;
+  width: 100%;
+  text-align: center;
+}
+.brand-main .review-empty-state {
+  padding: 76px 0;
+  width: 100%;
+  text-align: center;
+}
+.brand-main .magazine-empty-state {
+  padding: 75px 0;
+  width: 100%;
+  text-align: center;
+}
+.brand-main .product-empty-state .product-empty-state-icon {
+  width: 93px;
+  margin: 0 auto;
+  display: block;
+}
+.brand-main .product-empty-state .product-empty-state-text {
+  font-size: 14px;
+  color: #67696B;
+  line-height: 150%;
+  letter-spacing: -0.28px;
+  margin-top: 16px;
+}
+.brand-main .product-empty-state .product-empty-state-button {
+  background: #FF43CA;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 11px 16px;
+  font-size: 11px;
+}
+.brand-main .review-empty-state .review-empty-state-icon {
+  width: 99px;
+}
+.brand-main .review-empty-state .review-empty-state-text {
+  font-size: 14px;
+  color: #67696B;
+  line-height: 150%;
+  letter-spacing: -0.28px;
+  margin-top: 10px;
+}
+.brand-main .review-empty-state .review-empty-state-button {
+  background: #FF43CA;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 11px 16px;
+  font-size: 11px;
+}
+.brand-main .magazine-empty-state .magazine-empty-state-icon {
+  width: 105px;
+}
+.brand-main .magazine-empty-state .magazine-empty-state-text {
+  font-size: 14px;
+  color: #67696B;
+  line-height: 150%;
+  letter-spacing: -0.28px;
+  margin-top: 16px;
+}
+.brand-main .magazine-empty-state .magazine-empty-state-button {
+  background: #000;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 11px 16px;
+  font-size: 11px;
+}
+.review-detail-popup .popup-content .empty-wrap .modal-reaction-empty-icon {
+  width: 69px!important;
+  height: 93px!important;
+  margin-bottom: 16px!important;
+}
+.review-detail-popup .popup-content .empty-wrap .modal-comment-empty-icon {
+  width: 148px!important;
+  height: 81px!important;
+  margin-bottom: 16px!important;
+}
+.mypage-content .review-list-box .my-review-list .no-list .review-null-icon {
+  width: 99px!important;
+}
+.mypage-box .no-list .btn-pink.review-null-button {
+  padding: 0 16px!important;
+  height: 30px;
+}
+.mypage-content .review-list-box .my-review-list .no-list .bookmark-null-icon {
+  width: 137px!important;
+  margin-bottom: 0!important;
+}
+.mypage-content .review-list-box .my-review-list .no-list .bookmark-null-text {
+  margin-top: 0!important;
 }
