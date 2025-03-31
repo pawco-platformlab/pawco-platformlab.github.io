@@ -9088,7 +9088,7 @@
 
 /* 매거진 상품 연동 추가 */
 .magazine-content .magazine-detail .linked-products {
-  padding: 16px;
+  padding: 16px 16px 40px;
   background: #FFF;
 }
 
@@ -9205,6 +9205,7 @@
   letter-spacing: -0.24px;
 }
 .review-product-search .search-tabs {
+  padding: 0 16px;
   border-bottom: 1px solid #DBDCDF;
   margin-bottom: 16px;
   position: fixed;
@@ -9566,4 +9567,26 @@
 }
 .mypage-content .review-list-box .my-review-list .no-list .bookmark-null-text {
   margin-top: 0!important;
+}
+.exp-content .join-completed-box {
+  padding-top: 171px;
+}
+.exp-content .join-completed-box .img-complete-icon {
+  max-width: 230px!important;
+}
+.exp-content .join-completed-box .complete-text {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 142%;
+  color: #222;
+  margin: 12px 0 4px;
+}
+.exp-content .join-completed-box .complete-text-sub {
+  font-size: 12px;
+  color: #67696B;
+  line-height: 152%;
+  letter-spacing: -0.28px;
+}
+.exp-content .join-completed-box .complete-text-sub span {
+  color: #FF43CA;
 }
