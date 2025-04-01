@@ -9579,6 +9579,8 @@
   width: 100%;
   top: 45%;
   transform: translateY(-50%);
+  max-width: 500px;
+  margin: 0 auto;
 }
 .exp-content .join-completed-box .img-complete-icon {
   max-width: 230px!important;
