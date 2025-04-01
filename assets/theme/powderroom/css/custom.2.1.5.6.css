@@ -9429,7 +9429,7 @@
 }
 
 .search-list.search-list-contents .recommended-section {
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 0 16px 16px;
 }
 
@@ -9437,7 +9437,8 @@
   font-size: 16px;
   font-weight: bold;
   color: #000;
-  margin-bottom: 10px;
+  padding: 10.5px 0;
+  margin-bottom: 6px;
 }
 
 .search-list.search-list-contents .recommended-section .recommended-list {
@@ -9573,7 +9574,11 @@
   margin-top: 0!important;
 }
 .exp-content .join-completed-box {
-  padding-top: 171px;
+  padding-top: unset;
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  transform: translateY(-50%);
 }
 .exp-content .join-completed-box .img-complete-icon {
   max-width: 230px!important;
